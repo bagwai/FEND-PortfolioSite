@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Portfolio</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato:100,300">
+        <link rel="stylesheet" href="//normalize-css.googlecode.com/svn/trunk/normalize.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css"> 
+        
+        <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+        
+            <div class = "row">
+                <div class = "col-md-6">
+                     <img class ="title-logo" src="images/udacity-logo.jpg" alt="UdacityLogo">  
+                </div>
+                <div class = "col-md-6 text-right text-uppercase">
+                    <div class = "my-info">
+                        <h1 class = "title-super text-thin"> Maulik Dave </h1>
+                        <h4> Front-End Developer </h4>
+                    </div>
+                </div>
+            </div>
+        
+            <div class = "row">
+                <div class = "hr col-md-12">
+                   <hr>
+                </div>
+            </div>
+    
+            <div class = "row">
+                <div class = "text-thin col-md-12">
+                  <nav id="drawer" class="nav">
+                      <ul class="nav__list">
+                        <li class="nav__item"><a href="#">News</a></li>
+                        <li class="nav__item"><a href="#">Events</a></li>
+                        <li class="nav__item"><a href="#">Culture</a></li>
+                        <li class="nav__item"><a href="#">Blog</a></li>
+                      </ul>
+                  </nav>
+                </div>
+            </div>
+
+            <div class = "row">
+                <div class = "col-md-12">
+                      <img class = "img-responsive text-right" src="images/yosemite.jpg" alt="Yosemite">
+                      <!--<img class = "img-responsive" src = "http://placekitten.com/1000/350">-->
+                </div>
+            </div>
+
+            <div class = "row">
+                <div class = "col-md-12">
+                      <h2 class = "text-muted"> Featured Work </h2>  
+                </div>                
+            </div>
+
+            <div class = "row text-center">
+                <div class = "col-md-4">
+                      <img class = "img-responsive" src="images/vermont_farm.jpg" alt="img1" data-toggle="modal" data-target="#project1">>
+                      <h3 class = "text-uppercase"> Shoreham, VT </h3>
+                      <p>https://github.com/udacity</p>
+                </div>
+                <div class = "col-md-4">
+                      <img class = "img-responsive" src="images/me_yosemite.jpg" alt="img2" data-toggle="modal" data-target="#project1">>
+                      <h3 class = "text-uppercase"> Yosemite, CA </h3>
+                      <p>https://github.com/udacity</p>
+                </div>
+                <div class = "col-md-4">
+                      <img class = "img-responsive" src="images/burlington_vermont.jpg" alt="img3" data-toggle="modal" data-target="#project1">>
+                      <h3 class = "text-uppercase"> Burlington, VT </h3>
+                      <p>https://github.com/udacity</p>
+                </div>
+            </div>
+
+            <div class = "row">
+                <div class = "col-md-12">
+                   <hr>
+                </div>
+            </div>
+
+            <div class = "row">
+                <div class = "col-md-12">
+                    <div class = "social_media">
+                        <h4> Instagram (coming soon) </h4>
+                        <h4> Twitter (coming soon) </h4>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="images/vermont_farm.jpg" alt="img1">
+            This picture is from our recent visit to the Vermont, peaceful country side by Lake Champlain. 
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+        
+    </body>
+</html>
